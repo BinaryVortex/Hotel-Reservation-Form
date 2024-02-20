@@ -1,0 +1,40 @@
+.field1{
+    background-color: #c4d7f5;
+}
+.field2{
+    background-color: #f5dfc4;
+}
+.field3{
+    background-color:#b08856;
+}
+#f{
+    padding-top: 0px;
+}
+#reset{
+    text-align: right;
+}
+
+input[type=submit]{
+float:right;
+background-color:#c4d7f5 
+}
+
+input[type=reset]{
+    float:right;
+    background-color:#c4d7f5 ;
+ }
+
+ .h1{
+    text-align: center;
+ }
+
+ label{
+    display: inline-block;
+    float:left;
+    width:20%;
+ }
+ 
+ #breakfast{
+    text-align:left;
+
+ }

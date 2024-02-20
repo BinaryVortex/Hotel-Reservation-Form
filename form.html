@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="form.css">
+        <title>Tutorial 4</title>
+    </head>
+    <body>
+        <h1 class="h1">Hotel Reservation</h1>
+        <form>
+            <fieldset class="field1">
+                <legend>Personal Details</legend>
+                <label>Name:
+                    <input type="text" id="sname" name="sname" placeholder="Enter Your First Name" required>
+                   </label><br><br>
+
+                   <label>Surname:
+                    <input type="text" id="sname" name="sname" placeholder="Enter Your Last Name"required>
+                   </label><br><br>
+
+                   
+                   <label>Email Address:
+                    <input type="email" id="sname" name="sname"required>
+                   </label><br><br>
+
+                   <label>Password:
+                    <input type="password" id="sname" name="sname" placeholder="Min 8 characters, Use at least 1 caps, No special characters"required>
+                   </label><br><br>
+
+                </label>
+            </fieldset>
+            <fieldset class="field2">
+                <legend>Booking Day</legend>
+                <label>Checking Day:
+                    <input type="date" id="sname" name="sname" placeholder="Enter Your First Name" required>
+                   </label><br><br>
+
+                   <label>Number Of Days:
+                    <input type="text" id="sname" name="sname"required>
+                   </label><br><br>
+
+                   <label>Single Room:
+                    <input type="radio" id="sname" name="sname"required>
+                   </label><br><br>
+
+                   <label>Double Room:
+                    <input type="radio" id="sname" name="sname"required>
+                   </label><br><br>
+
+                   <label>King Room:
+                    <input type="radio" id="sname" name="sname"required>
+                   </label><br><br>
+
+                   <label>Breakfast</label>:
+                    <select name="breakfast" id="breakfast">
+                        <option value="Include">Include</option>
+                        <option value="Not Include">Not Include</option>
+                    </select>
+                   </label><br><br>
+
+                   <label id="s">Special Requirements:
+                    <textarea name="feedback"rows="10" cols="50" placeholder="Please Provide Any Special Requirements."></textarea>
+                   </label><br><br>
+            </fieldset>
+            <fieldset class="field3">
+                <input type="reset" id="reset" name="reset" value="Reset">
+                <input type="submit" id="submit" name="submit" value="Send">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
